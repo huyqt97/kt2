@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav__left i{
+    margin-left: 20px;
+}
+.nav__right i{
+    margin-right: 20px;
+}
+.header{
+    position: relative;
+    list-style: none;
+}
+.header__top{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__img img{
+    width: 65%%;
+}
+.header__top-ul{
+    text-align: center;
+    list-style: none;
+}
+.header__top-up{
+    color: white;
+    list-style: none;
+    position: absolute;
+    bottom: 35%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.header__top-up button{
+    width: 100px;
+    height: 30px;
+    color: black;
+}
+.header__top-li{
+    margin-bottom: 20px;
+}
+
+
+article{
+    margin: 5px 20px;
+}
+.mainleft1{
+    background-color: rgb(238, 245, 245);
+    float: left;
+    margin-top: 20px;
+    width: 65%;
+}
+ul{
+    list-style: none;
+    line-height: 30px
+}
+.mainleft1__top{
+    margin: 0PX 30PX;
+}
+.mainleft1__img{
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+.mainleft1__top-top{
+    text-align: center;
+    margin: 30PX 30PX;
+}
+.mainleft1__foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.mainleft1__foot-button1{
+    width: 60px;
+    height: 35px;
+}
+.mainleft1__foot-button2{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(24, 21, 21);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#p{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainleft1__sup{
+    border-top: 3px solid rgb(108, 106, 106);
+    position: relative;
+}
+.sup{
+    margin: 20px 0px;
+    display: flex;
+}
+.mainleft1__sup-form{
+    position: absolute;
+    top: 40%;
+    left: 250px;
+}
+.pmo{
+    color: rgb(92, 86, 86);
+}
+
+.aside{
+    background-color: blueviolet;
+    margin: 20px 20px;
+    float:right;
+    width: 35%;
+}
